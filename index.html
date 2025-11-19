@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bus Arrival</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    
+      <h1>Bus Arrival App</h1>
+      <label for="busStopId">Bus Stop ID:</label>
+      <input type="text" id="busStopId" name="busStopId" placeholder="Enter bus stop ID"/>
+      <button id="showArrivals" onclick="getBusTiming()">Show Arrivals</button>
+
+      <table id="busArrival">
+        <thead>
+          <tr>
+            <th>Bus No.</th>
+            <th>Operator</th>
+            <th>Next Arrival</th>
+          </tr>
+        </thead>
+      <div id="arrivalInfo"></div>
+    </main>
+  </body>
+</html>
